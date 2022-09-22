@@ -14,4 +14,5 @@ for _ in range(int(num_of_wallets)):
     with open(f"wallets {now}.txt", "a+") as file:
         file.write(f"{account.address} {private_key} \n")
 
+
 print("Walllets created")
